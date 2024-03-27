@@ -21,7 +21,7 @@ import { action as destroyAction } from './actions/delete';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
-      path="/"
+      path="/gerenciador-contatos"
       element={<Home />}
       loader={homeLoader}
       action={homeAction}
